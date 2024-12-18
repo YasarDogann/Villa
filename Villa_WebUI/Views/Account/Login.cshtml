@@ -1,0 +1,41 @@
+﻿@model LoginDto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animated Login Page  || Web Addicted </title>
+</head>
+<link rel="stylesheet" href="~/colorlib-regform-7/style.css">
+<body>
+    <div class="holder">
+        <div class="box">
+            <form autocomplete="off" method="post" asp-controller="Account" asp-action="Login">
+              <h2>Giriş Yap</h2>
+
+              <div class="inputBox">
+                <input type="text" asp-for="UserName" required="required">
+                <span>Username</span>
+                <i></i>
+              </div>
+              <div class="inputBox">
+                <input type="password" asp-for="Password" required="required">
+                <span>Password</span>
+                <i></i>
+              </div>
+
+              <div class="links">
+                <a href="#">Şifremi Unuttum</a>
+                <a href="/Account/Register">Kayıt Ol</a>
+              </div>
+
+              <input type="submit" value="Giriş">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

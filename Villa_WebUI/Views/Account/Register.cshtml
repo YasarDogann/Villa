@@ -1,0 +1,53 @@
+﻿
+@model RegisterDto
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Animated Login Page  || Web Addicted </title>
+</head>
+<link rel="stylesheet" href="~/colorlib-regform-7/styleRegister.css">
+<body>
+    <div class="holder">
+        <div class="box">
+             <form autocomplete="off" method="post" asp-controller="Account" asp-action="Register">
+              <h2>Kayıt Ol</h2>
+              <div class="inputBox">
+                <input type="text" asp-for="NameSurname" required="required">
+                <span>Ad Soyad</span>
+                <i></i>
+              </div>
+
+              <div class="inputBox">
+                <input type="text" asp-for="UserName" required="required" >
+                <span>Kullanıcı Adı</span>
+                <i></i>
+              </div>
+
+              <div class="inputBox">
+                <input type="email" asp-for="Email" required="required" >
+                <span>Email</span>
+                <i></i>
+              </div>
+
+              <div class="inputBox">
+                <input type="password" asp-for="Password" required="required">
+                <span>Şifre</span>
+                <i></i>
+              </div>
+
+              <div class="links">
+                <a href="#">Şifremi Unuttum</a>
+                <a href="/Account/Login">Giriş Yap</a>
+              </div>
+              <input type="submit" value="Kayıt Ol">
+            </form>
+          </div>
+        </div>
+</body>
+</html>

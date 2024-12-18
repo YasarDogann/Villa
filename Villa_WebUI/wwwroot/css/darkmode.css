@@ -1,0 +1,176 @@
+﻿/* Dark Mode Genel */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+    /* Sidebar için Dark Mode */
+    body.dark-mode .quixnav {
+        background-color: #222222;
+        color: #ffffff;
+    }
+
+        body.dark-mode .quixnav .nav-text {
+            color: #ffffff;
+        }
+
+    body.dark-mode .sidebar-button {
+        background-color: #333333;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        display: inline-block;
+        position: relative;
+        margin-top: 10px;
+        border-radius: 5px; /* Butonun köşelerini yuvarlatmak için */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Butonun altına hafif bir gölge ekler */
+    }
+
+        body.dark-mode .sidebar-button:hover {
+            background-color: #444444; /* Buton hover efekti */
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Hover sırasında daha belirgin bir gölge */
+        }
+
+    /* Home Index Sayfası için Dark Mode */
+    body.dark-mode .home-index {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+        body.dark-mode .home-index h1,
+        body.dark-mode .home-index p {
+            color: #ffffff;
+        }
+
+    /* Card-body için Dark Mode */
+    body.dark-mode .card-body {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+        body.dark-mode .card-body h5,
+        body.dark-mode .card-body p {
+            color: #ffffff;
+        }
+
+    /* Container-fluid için Dark Mode */
+    body.dark-mode .container-fluid {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+        body.dark-mode .container-fluid h1,
+        body.dark-mode .container-fluid p {
+            color: #ffffff;
+        }
+
+    /* Row.page-titles.mx-0 için Dark Mode */
+    body.dark-mode .row.page-titles.mx-0 {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+        body.dark-mode .row.page-titles.mx-0 h1,
+        body.dark-mode .row.page-titles.mx-0 p {
+            color: #ffffff;
+        }
+
+    /* Col-sm-6-md-0 için Dark Mode */
+    body.dark-mode .col-sm-6-md-0 {
+        color: #ffffff;
+    }
+
+    /* Welcome-text için Dark Mode */
+    body.dark-mode .welcome-text {
+        color: #ffffff;
+    }
+
+        body.dark-mode .welcome-text h1,
+        body.dark-mode .welcome-text p {
+            color: #ffffff;
+        }
+
+    /* Col-sm-6.p-md-0 içindeki .page-titles h4 için Dark Mode */
+    body.dark-mode .page-titles h4 {
+        color: #ffffff; /* Yazı rengi beyaz */
+    }
+
+    /* Navbar için Dark Mode */
+    body.dark-mode .header {
+        background-color: #222222; /* Navbar arka plan rengi */
+        color: #ffffff; /* Navbar yazı rengi */
+    }
+
+        body.dark-mode .header .navbar {
+            background-color: #222222; /* Navbar genel arka plan */
+        }
+
+            body.dark-mode .header .navbar .nav-link,
+            body.dark-mode .header .navbar .navbar-nav .nav-item a {
+                color: #ffffff; /* Navbar link rengi */
+            }
+
+                body.dark-mode .header .navbar .nav-link:hover,
+                body.dark-mode .header .navbar .navbar-nav .nav-item a:hover {
+                    color: #ffcc00; /* Hover sırasında renk değişimi (isteğe bağlı) */
+                }
+
+        body.dark-mode .header .dropdown-menu {
+            background-color: #333333; /* Dropdown menü arka plan rengi */
+            color: #ffffff; /* Dropdown menü yazı rengi */
+        }
+
+            body.dark-mode .header .dropdown-menu .dropdown-item {
+                color: #ffffff; /* Dropdown öğe yazı rengi */
+            }
+
+                body.dark-mode .header .dropdown-menu .dropdown-item:hover {
+                    background-color: #444444; /* Dropdown hover arka plan rengi */
+                    color: #ffcc00; /* Hover sırasında yazı rengi */
+                }
+
+        body.dark-mode .header .navbar .mdi {
+            color: #ffffff; /* Navbar ikonları */
+        }
+
+        body.dark-mode .header .navbar .pulse-css {
+            background-color: #ffcc00; /* Bildirim animasyon rengi */
+        }
+
+        body.dark-mode .header .search_bar .dropdown-menu {
+            background-color: #333333; /* Search bar dropdown arka plan rengi */
+        }
+
+            body.dark-mode .header .search_bar .dropdown-menu input.form-control {
+                background-color: #222222; /* Search bar input arka plan rengi */
+                color: #ffffff; /* Search bar input yazı rengi */
+            }
+/*@* <style>*/
+/* Sidebar Buton CSS */
+/*.sidebar-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px;
+    background-color: grey;*/ /* Buton rengi */
+/*border: none;
+    color: white;
+    display: inline-block;*/ /* Butonun blok olmasını sağlıyor */
+/*position: relative;*/ /* Sidebar içinde konumlandırmak için relative kullanıyoruz */
+/*margin-top: 10px;*/ /* Sidebar içinde üstten biraz boşluk bırakabiliriz */
+/*}*/
+
+/* Dark Mode */
+/*body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+    body.dark-mode button {
+        background-color: #333333;
+        color: #ffffff;
+    }
+
+</style > *@*/
