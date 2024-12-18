@@ -25,3 +25,11 @@ Proje dosyalarını bilgisayarınıza klonlayın:
 
 ```bash
 git clone https://github.com/YasarDogann/Villa.git
+```
+## 2. Gerekli Paketleri Yükleyin
+
+Projede kullanılan NuGet paketlerini yüklemek için aşağıdaki komutu çalıştırabilirsiniz:
+
+```bash
+dotnet restore
+```
