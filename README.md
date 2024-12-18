@@ -73,9 +73,9 @@ Proje, Layered Architecture prensiplerine uygun şekilde yapılandırılmıştı
 
 Projenin geliştirilmesine katkı sağlamak isterseniz, aşağıdaki adımları izleyebilirsiniz:
 1. Fork yapın.
-2. Yeni bir branch oluşturun (git checkout -b feature/your-feature).
-3. Değişikliklerinizi yapın ve commit edin (git commit -am 'Add new feature').
-4. Push edin (git push origin feature/your-feature).
+2. Yeni bir branch oluşturun `(git checkout -b feature/your-feature)`.
+3. Değişikliklerinizi yapın ve commit edin `(git commit -am 'Add new feature')`.
+4. Push edin `(git push origin feature/your-feature`
 5. Pull request açın.
 
 ##📧 İletişim
