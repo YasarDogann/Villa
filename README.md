@@ -33,3 +33,25 @@ Projede kullanılan NuGet paketlerini yüklemek için aşağıdaki komutu çalı
 ```bash
 dotnet restore
 ```
+### 3. Veritabanı Bağlantılarını Yapılandırın
+
+`appsettings.json` dosyasındaki MongoDB bağlantı ayarlarını aşağıdaki gibi güncelleyin:
+```bash
+"ConnectionStrings": {
+    "MongoDb": "mongodb://localhost:27017"
+}
+```
+### 4. Uygulamayı Başlatın
+
+Projeyi başlatmak için aşağıdaki komutu kullanabilirsiniz:
+```bash
+dotnet run
+```
+Projeyi başlattıktan sonra uygulama varsayılan olarak https://localhost:5001 adresinde çalışacaktır.
+
+👩‍💻 Admin Paneli
+
+Admin paneline giriş yaptıktan sonra aşağıdaki işlemleri gerçekleştirebilirsiniz:
+
+ - Kullanıcılar üzerinde CRUD işlemleri yapılabilir.
+ - Admin paneline erişim için kimlik doğrulama işlemi gereklidir.
