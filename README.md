@@ -49,9 +49,35 @@ dotnet run
 ```
 Projeyi başlattıktan sonra uygulama varsayılan olarak https://localhost:5001 adresinde çalışacaktır.
 
-👩‍💻 Admin Paneli
+
+## 👩‍💻 Admin Paneli
 
 Admin paneline giriş yaptıktan sonra aşağıdaki işlemleri gerçekleştirebilirsiniz:
 
  - Kullanıcılar üzerinde CRUD işlemleri yapılabilir.
  - Admin paneline erişim için kimlik doğrulama işlemi gereklidir.
+
+## 🔑 Kimlik Doğrulama
+
+Bu projede JWT (JSON Web Token) kullanılarak kimlik doğrulama sağlanmaktadır. Kullanıcılar, sisteme kayıt olduktan sonra giriş yaparak uygulamanın tüm özelliklerine erişebilirler.
+
+## 📄 Proje Yapısı
+
+Proje, Layered Architecture prensiplerine uygun şekilde yapılandırılmıştır:
+
+  - Data Layer – Veritabanı işlemleri için
+  - Business Layer – İş mantığı ve iş kuralları
+  - API Layer – Controller ve API uç noktaları
+
+## 🤝 Katkı Sağlamak
+
+Projenin geliştirilmesine katkı sağlamak isterseniz, aşağıdaki adımları izleyebilirsiniz:
+1. Fork yapın.
+2. Yeni bir branch oluşturun (git checkout -b feature/your-feature).
+3. Değişikliklerinizi yapın ve commit edin (git commit -am 'Add new feature').
+4. Push edin (git push origin feature/your-feature).
+5. Pull request açın.
+
+##📧 İletişim
+
+Herhangi bir sorunuz olursa, bana GitHub üzerinden ulaşabilirsiniz: YasarDogann
